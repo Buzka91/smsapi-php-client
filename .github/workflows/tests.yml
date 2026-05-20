@@ -10,6 +10,9 @@ on:
             - main
             - master
 
+permissions:
+    contents: read
+
 jobs:
     tests:
         name: PHP ${{ matrix.php }}
